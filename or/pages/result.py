@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome("/home/shailu/eclipse-workspace/SeleniumPractice/driverBinary/chromedriver")
+driver = webdriver.Chrome("../../driverBinary/chromedriver")
 
 driver.maximize_window()
 
